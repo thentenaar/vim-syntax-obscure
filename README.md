@@ -8,6 +8,7 @@ Filetypes Covered
 -----------------
 
 - [Ophis / P65](https://github.com/michaelcmartin/Ophis)
+- [nesasm](http://github.com/thentenaar/nesasm)
 
 Installation
 ------------
