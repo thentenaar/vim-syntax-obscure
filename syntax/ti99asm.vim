@@ -50,6 +50,7 @@ syn region  ti99asmComment    start=/\v(^(\s+\S+){2}\s+)@<=\S/ end=/$/
 syn region  ti99asmComment    start=/\v(^(\S+\s+){3})@<=\S/ end=/$/
 syn region  ti99asmComment    start=/\v(\s*(CKOF|CKON|LREX|IDLE|RSET)\s+)@<=\S+/ end=/$/
 syn region  ti99asmComment    start=/\v(\s*(EVEN|NOP|RT|RTWP)\s+)@<=\S+/ end=/$/
+syn region  ti99asmComment    start=/\v(\s*([PCD](SEG|END))\s+)@<=\S+/ end=/$/
 syn region  ti99asmOverLen    start=/\%>80v./ end=/$/
 
 hi link ti99asmOp         Keyword
